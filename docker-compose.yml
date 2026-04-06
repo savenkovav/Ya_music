@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  ya-music-bot:
+    build: .
+    container_name: ya-music-bot
+    env_file:
+      - .env
+    restart: always
